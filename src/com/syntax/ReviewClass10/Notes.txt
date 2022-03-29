@@ -77,3 +77,5 @@ Rules:
     3)if we have constructor in the parent class we must have a matching constructor in the children classes as well.
     4) in Java a subclass can only extend single parent class.
 Super Keyword:
+super keyword is a reference variable that we can use to access the fields or
+methods or constructors of the parent class.
