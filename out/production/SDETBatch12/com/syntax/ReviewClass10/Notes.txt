@@ -1,0 +1,13 @@
+Inheritance in java:
+    This is mechanism in java through which one class can acquire the properties
+    and methods from another class. The class from which we acquire the properties
+    parent/superclass/baseclass and the class which acquire the properties and methods
+    child class/ derived class/ subclass.
+Advantages:
+    1) Code duplication is reduced.
+    2) Saves Memory
+    3) executions time is less
+Disadvantages:
+    Classes get tightly coupled. If we change some in the parent class it will affect all the
+    children classes and we have to make sure that this new change is compatible with the code
+    that we have in the children classes
