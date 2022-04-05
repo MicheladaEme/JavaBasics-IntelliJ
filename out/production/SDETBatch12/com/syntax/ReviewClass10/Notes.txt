@@ -77,5 +77,31 @@ Rules:
     3)if we have constructor in the parent class we must have a matching constructor in the children classes as well.
     4) in Java a subclass can only extend single parent class.
 Super Keyword:
-super keyword is a reference variable that we can use to access the fields or
-methods or constructors of the parent class
+    super keyword is a reference variable that we can use to access the fields or
+    methods or constructors of the parent class.
+Uses:
+    1)if we have same names fields in the parent class and in the child class
+    we can use super keyword to refer to the parent class field as by default
+    java prefers the instance field of the child class
+    2) we can use the super keyword to call the method of the parent class
+    if we have same named method in the child class as well.
+    3) we can use super with () to call the parent class constructor.
+Overloading in Java:
+    When same method name exists in a class with different number of parameters or
+    with different type of parameters or with different sequence of parameters.
+Advantages of overloading:
+    1) More readable code
+    2) code is easier to use
+    3) flexible code
+    4) we can have polymorphism with the help of method overloading
+When to overload a method:
+if methods are performing same operations but with different parameters then we should
+overload these methods.
+Rules:
+    1) Method name should be same
+    2) method signature (method name +parameter list) should be different.
+    3) we can't overload a method by just changing its return type
+    4) we can't overload a method by just changing its access modifiers(public private etc)
+    5) we can't overload a method by just changing its non-access modifiers(static
+    6) we can overload static methods and main method as well.
+    7) constructors can also be overloaded.
